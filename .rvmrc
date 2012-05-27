@@ -1,0 +1,8 @@
+# if you're getting an error about autoconf, try:
+#
+#    rvm get head
+#    rvm install 1.9.3 --with-gcc=clang
+
+
+# rvm use 1.9.3-p125@splitit --create
+rvm use 1.9.2@arduino --create

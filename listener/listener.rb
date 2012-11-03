@@ -5,7 +5,7 @@ load File.expand_path 'Rakefile'
 
 launch_code = "8iAWv1dVOywXNobylMid"
 
-port_str = "/dev/tty.usbserial-A6008lLX"
+port_str = "/dev/ttyACM1"
 baud_rate = 9600
 data_bits = 8
 stop_bits = 1

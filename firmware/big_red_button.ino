@@ -19,7 +19,7 @@ void loop() {
 
   if (reading != lastButtonState) {
     lastDebounceTime = millis();
-    if (buttonState == LOW) {
+    if (buttonState == HIGH) {
       Serial.println(launchCode);
     }
   }
